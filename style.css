@@ -124,6 +124,13 @@ section .title::after{
 .navbar.sticky .menu li a:hover{
     color: #fff;
 }
+.navbar .logo a img{
+    width: 60px;
+    height: 100%;
+    font-size: 30px;
+    position:static;
+
+}
 
 /* menu btn styling */
 .menu-btn{
@@ -164,7 +171,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/banner.jpg") no-repeat center;
+    background: url("images/web.jpg") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -375,7 +382,7 @@ section .title::after{
     background: crimson;
 }
 .skills-content .right .html::before{
-    width: 90%;
+    width: 70%;
 }
 .skills-content .right .css::before{
     width: 60%;
@@ -395,7 +402,7 @@ section .title::after{
 
 /* Projects section styling */
 .Projects .title::after{
-    content: "who with me";
+    content: "what i Created";
 }
 .Projects .carousel .card{
     background: #222;
