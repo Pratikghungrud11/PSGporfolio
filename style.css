@@ -134,6 +134,17 @@ section .title::after{
     top: 5px;
 
 }
+<<<<<<< HEAD
+=======
+#preloder{
+    background: #000 url(images/circle-loader-gif-2.gif) no-repeat center center;
+    background-size: 20%;
+    height: 100uhv;
+    width: 100%;
+    position:fixed;
+    z-index: 100;
+}
+>>>>>>> ceef71686bf27d58701af4bea2d08f43fed3fffc
 /* menu btn styling */
 .menu-btn{
     color: #fff;

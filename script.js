@@ -47,7 +47,11 @@ $(document).ready(function(){
         backSpeed: 60,
         loop: true
     });
-
+    
+    var loader = document.getElementById("preloder");
+    window.addEventListener("load",function(){
+        loader.style.display = "none";
+    })
     // owl carousel script
     $('.carousel').owlCarousel({
         margin: 20,
